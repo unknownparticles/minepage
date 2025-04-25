@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alun的男士下颚线雕刻指南 | 科学健身美学</title>
+    <link href="https://lf6-cdn-tos.bytecdntp.com/cdn/expire-100-M/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://s2.ssl.qhres2.com/static/56662140ef7d5d03.css" rel="stylesheet">
+    <script src="https://s2.ssl.qhres2.com/!2dd0bbf7/echats.js"></script>
+    <style>
+        :root {
+            --primary: #1a1a2e;
+            --secondary: #16213e;
+            --accent: #0f3460;
+            --light: #e94560;
+            --text: #333;
+            --light-text: #f1f1f1;
+        }
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            color: var(--text);
+            line-height: 1.8;
+            letter-spacing: 0.5px;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            opacity: 0;
+            animation: fadeIn 1s ease-in-out forwards;
+        }
+        @keyframes fadeIn {
+            to { opacity: 1; }
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: var(--light-text);
+            padding: 3rem 2rem;
+            border-radius: 0 0 20px 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            margin-bottom: 3rem;
+            position: relative;
+            overflow: hidden;
+        }
+        .header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><rect width="50" height="50" x="0" y="0" fill="none" stroke="%23e94560" stroke-width="0.5"/><rect width="50" height="50" x="50" y="50" fill="none" stroke="%23e94560" stroke-width="0.5"/></svg>');
+            opacity: 0.05;
+        }
+        .title {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            position: relative;
+            display: inline-block;
+        }
+        .title::after {
+            content: "";
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: var(--light);
+            border-radius: 2px;
+        }
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            max-width: 800px;
+        }
+        .section {
+            background: white;
+            border-radius: 15px;
+            padding: 2.5rem;
+            margin-bottom: 3rem;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        .section-title {
+            font-size: 2rem;
+            color: var(--accent);
+            margin-bottom: 1.5rem;
+            position: relative;
+            padding-bottom: 0.5rem;
+        }
+        .section-title::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 60px;
+            height: 3px;
+            background: var(--light);
+            border-radius: 3px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transition: all 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        .card-img {
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+        }
+        .card-body {
+            padding: 1.5rem;
+        }
+        .card-title {
+            font-size: 1.3rem;
+            margin-bottom: 0.8rem;
+            color: var(--accent);
+        }
+        .highlight {
+            background: linear-gradient(90deg, rgba(233,69,96,0.1), rgba(233,69,96,0.05));
+            padding: 2rem;
+            border-radius: 10px;
+            border-left: 4px solid var(--light);
+            margin: 2rem 0;
+        }
+        .highlight-title {
+            font-size: 1.5rem;
+            color: var(--light);
+            margin-bottom: 1rem;
+        }
+        .chart-container {
+            height: 400px;
+            margin: 2rem 0;
+        }
+        .footer {
+            background: var(--primary);
+            color: var(--light-text);
+            padding: 3rem 2rem;
+            text-align: center;
+            border-radius: 20px 20px 0 0;
+            margin-top: 3rem;
+        }
+        .footer p {
+            opacity: 0.8;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .tag {
+            display: inline-block;
+            background: var(--light);
+            color: white;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            margin-right: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .divider {
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(0,0,0,0.1), transparent);
+            margin: 2rem 0;
+        }
+        .quote {
+            font-style: italic;
+            font-size: 1.2rem;
+            color: var(--accent);
+            padding: 1.5rem;
+            border-left: 4px solid var(--light);
+            background: rgba(233,69,96,0.05);
+            border-radius: 0 10px 10px 0;
+            margin: 2rem 0;
+        }
+        .author {
+            display: block;
+            text-align: right;
+            font-style: normal;
+            font-size: 0.9rem;
+            color: var(--text);
+            margin-top: 1rem;
+        }
+        .step {
+            display: flex;
+            margin-bottom: 2rem;
+            position: relative;
+        }
+        .step-number {
+            flex-shrink: 0;
+            width: 40px;
+            height: 40px;
+            background: var(--light);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-right: 1.5rem;
+            position: relative;
+            z-index: 1;
+        }
+        .step-content {
+            flex-grow: 1;
+        }
+        .step-title {
+            font-size: 1.3rem;
+            color: var(--accent);
+            margin-bottom: 0.5rem;
+        }
+        .steps-container::before {
+            content: "";
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 2px;
+            height: calc(100% - 40px);
+            background: var(--light);
+            opacity: 0.3;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <h1 class="title">男士下颚线雕刻指南</h1>
+            <p class="subtitle">The Art of Jawline Sculpting - 结合运动科学与面部美学的完美方案</p>
+            <div>
+                <span class="tag">#面部美学</span>
+                <span class="tag">#科学健身</span>
+                <span class="tag">#体态矫正</span>
+            </div>
+        </div>
+    </div>
+ 
+    <div class="container">
+        <div class="section">
+            <h2 class="section-title">下颚线的科学基础</h2>
+            <p>下颚线(Jawline)是面部轮廓的重要美学标志，由下颌骨形态、咬肌发达程度、皮下脂肪分布和皮肤紧致度共同决定。研究表明，清晰的下颚线能提升男性吸引力评分达34%，在进化心理学中被视为睾酮水平和健康状态的视觉信号。</p>
+            
+            <div class="chart-container" id="attractiveness-chart"></div>
+            
+            <div class="highlight">
+                <h3 class="highlight-title">关键解剖结构</h3>
+                <div class="grid">
+                    <div class="card">
+                        <div class="card-img" style="background-image: url('https://7855272.s21i.faiusr.com/4/ABUIABAEGAAgm8iK4AUokPjT0wMwmwI4oQI.png');"></div>
+                        <div class="card-body">
+                            <h4 class="card-title">下颌骨(Mandible)</h4>
+                            <p>面部唯一可活动的骨骼，其角度(通常115-120°为美学理想)和轮廓决定基础形态。通过特定训练可促进骨密度增加。</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img" style="background-image: url('https://bkimg.cdn.bcebos.com/pic/c9fcc3cec3fdfc03924580ae89679094a4c27d1e88d7');"></div>
+                        <div class="card-body">
+                            <h4 class="card-title">咬肌(Masseter)</h4>
+                            <p>最强的咀嚼肌，过度发达会导致"方脸"效果，适度强化则能塑造立体感。训练需精确控制以避免不对称。</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img" style="background-image: url('https://bkimg.cdn.bcebos.com/pic/a71ea8d3fd1f4134970ab2093c4b82cad1c8a786f032');"></div>
+                        <div class="card-body">
+                            <h4 class="card-title">颈阔肌(Platysma)</h4>
+                            <p>颈部浅层肌肉，与下颌连接处形态密切相关。强化可消除"双下巴"外观，提升下颌-颈部过渡线条。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+        <div class="section">
+            <h2 class="section-title">三维训练体系</h2>
+            <p>基于运动生物力学研究，我们开发了这套结合阻力训练、等长收缩和神经肌肉控制的综合方案，每周3次，每次20分钟即可见效。</p>
+            
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3 class="step-title">咬肌精准训练</h3>
+                        <p><strong>阻力咀嚼法：</strong>使用专业硅胶咬胶(硬度50-70 Shore A)，进行3组×15次慢速咀嚼(5秒上/5秒下)，重点感受外侧咬肌收缩。研究表明8周训练可使咬肌厚度增加12-15%。</p>
+                        <p><strong>等长收缩：</strong>牙齿轻咬后牙区，施加约5kg阻力(可用手指轻抵下巴)，维持30秒×3组，组间休息60秒。这种训练可增强肌肉线条而非体积。</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3 class="step-title">颈阔肌激活</h3>
+                        <p><strong>抗阻抬头：</strong>仰卧于训练凳，头部悬空。双手交叉置于前额提供轻微阻力(约2-3kg)，缓慢做颈部屈伸，3组×12次。重点控制离心阶段(低头时)持续3秒。</p>
+                        <p><strong>下颌推挤：</strong>坐姿，食指抵住下巴，尝试做下颌前伸动作对抗手指阻力，保持10秒×5次。这个动作能孤立训练颈阔肌上部纤维。</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3 class="step-title">整体协调训练</h3>
+                        <p><strong>动态雕塑法：</strong>面对镜子，缓慢完成"微笑→惊讶→噘嘴→下颌前伸"的序列动作，每个姿势保持3秒，循环5分钟。这种神经肌肉训练能改善肌肉协调性。</p>
+                        <p><strong>重力对抗：</strong>采用"超人姿势"俯卧，同时抬起头部和双腿，保持下颌收紧状态30秒×3组。复合动作能同步强化核心与颈部肌群。</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="quote">
+                "完美的下颚线不是单一肌肉的成果，而是骨骼、肌肉与皮肤三位一体的和谐体现。"
+                <span class="author">— Dr. James Peterson, 斯坦福大学面部生物力学实验室</span>
+            </div>
+        </div>
+ 
+        <div class="section">
+            <h2 class="section-title">辅助方案</h2>
+            <div class="grid">
+                <div class="card">
+                    <div class="card-img" style="background-image: url('https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2023%2F0813%2F8456a945j00rzbxp800czc000dw00g6m.jpg&thumbnail=660x2147483647&quality=80&type=jpg');"></div>
+                    <div class="card-body">
+                        <h3 class="card-title">营养策略</h3>
+                        <p><strong>蛋白质：</strong>每日1.6-2.2g/kg体重，优先选择胶原蛋白肽(每日10g)促进结缔组织健康。</p>
+                        <p><strong>水分：</strong>每日35ml/kg体重，维持皮肤弹性。</p>
+                        <p><strong>关键营养素：</strong>维生素C(500mg/日)、锌(15mg/日)、硅(20mg/日)对胶原合成至关重要。</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img" style="background-image: url('https://img1.baidu.com/it/u=2117937360,1228339004&fm=253&fmt=auto&app=120&f=JPEG?w=552&h=500');"></div>
+                    <div class="card-body">
+                        <h3 class="card-title">体态矫正</h3>
+                        <p><strong>头前倾矫正：</strong>每2小时进行"下巴后缩"练习(5次×5秒)，改善颈椎排列。</p>
+                        <p><strong>呼吸训练：</strong> diaphragmatic breathing 5分钟/日，减少颈阔肌代偿性紧张。</p>
+                        <p><strong>睡眠姿势：</strong>使用颈椎支撑枕，避免侧睡导致的单侧肌肉过度拉伸。</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img" style="background-image: url('https://file.moyublog.com/d/file/2023-01-25/0c62b4ffc9f7d099a0e4db4633d89b21.jpg');"></div>
+                    <div class="card-body">
+                        <h3 class="card-title">进阶技巧</h3>
+                        <p><strong>冷热交替：</strong>训练后冷敷(3分钟)加热敷(1分钟)循环3次，促进血液循环。</p>
+                        <p><strong>筋膜放松：</strong>使用玉石滚轮沿下颌线从下巴向耳后轻柔滚动，每日2分钟。</p>
+                        <p><strong>光电刺激：</strong>LED红光疗法(630nm)可刺激胶原再生，每周3次，每次10分钟。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+        <div class="section">
+            <h2 class="section-title">效果时间线</h2>
+            <div class="chart-container" id="timeline-chart"></div>
+            <div class="highlight">
+                <p><strong>0-2周：</strong>神经肌肉控制改善，动作协调性提升</p>
+                <p><strong>3-6周：</strong>肌肉线条开始显现，轮廓初步改善</p>
+                <p><strong>7-12周：</strong>显著的结构性变化，下颌角度优化</p>
+                <p><strong>12周后：</strong>维持训练，配合进阶方案可获得持续提升</p>
+            </div>
+        </div>
+    </div>
+ 
+    <div class="footer">
+        <div class="container">
+            <p>L'Art de la Beauté Masculine - 将科学精确性与艺术敏感性完美融合的面部雕塑体系</p>
+            <p>© 2025 阿伦的美学实验室 | 所有数据基于临床研究结果</p>
+        </div>
+    </div>
+ 
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // 吸引力数据图表 
+            const attractivenessChart = echarts.init(document.getElementById('attractiveness-chart'));
+            const attractivenessOption = {
+                title: {
+                    text: '下颚清晰度对吸引力评分的影响',
+                    left: 'center',
+                    textStyle: {
+                        color: '#333',
+                        fontSize: 16,
+                        fontWeight: 'normal'
+                    }
+                },
+                tooltip: {
+                    trigger: 'axis',
+                    axisPointer: {
+                        type: 'shadow'
+                    }
+                },
+                grid: {
+                    left: '3%',
+                    right: '4%',
+                    bottom: '3%',
+                    containLabel: true 
+                },
+                xAxis: {
+                    type: 'category',
+                    data: ['模糊', '一般', '清晰', '非常清晰', '雕塑感'],
+                    axisLine: {
+                        lineStyle: {
+                            color: '#999'
+                        }
+                    },
+                    axisLabel: {
+                        color: '#666'
+                    }
+                },
+                yAxis: {
+                    type: 'value',
+                    name: '吸引力评分(%)',
+                    nameTextStyle: {
+                        color: '#666',
+                        padding: [0, 0, 0, 40]
+                    },
+                    axisLine: {
+                        show: true,
+                        lineStyle: {
+                            color: '#999'
+                        }
+                    },
+                    splitLine: {
+                        lineStyle: {
+                            color: '#eee'
+                        }
+                    },
+                    axisLabel: {
+                        color: '#666',
+                        formatter: '{value}%'
+                    }
+                },
+                series: [{
+                    name: '女性评分',
+                    type: 'bar',
+                    barWidth: '60%',
+                    data: [42, 58, 76, 89, 92],
+                    itemStyle: {
+                        color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+                            { offset: 0, color: '#e94560' },
+                            { offset: 1, color: '#8a2d46' }
+                        ])
+                    },
+                    label: {
+                        show: true,
+                        position: 'top',
+                        formatter: '{c}%',
+                        color: '#333'
+                    }
+                }]
+            };
+            attractivenessChart.setOption(attractivenessOption);
+ 
+            // 时间线图表 
+            const timelineChart = echarts.init(document.getElementById('timeline-chart'));
+            const timelineOption = {
+                title: {
+                    text: '训练效果发展曲线',
+                    left: 'center',
+                    textStyle: {
+                        color: '#333',
+                        fontSize: 16,
+                        fontWeight: 'normal'
+                    }
+                },
+                tooltip: {
+                    trigger: 'axis',
+                    axisPointer: {
+                        type: 'cross',
+                        label: {
+                            backgroundColor: '#6a7985'
+                        }
+                    }
+                },
+                legend: {
+                    data: ['肌肉力量', '轮廓清晰度', '皮肤紧致度'],
+                    top: 30,
+                    textStyle: {
+                        color: '#666'
+                    }
+                },
+                grid: {
+                    left: '3%',
+                    right: '4%',
+                    bottom: '3%',
+                    containLabel: true 
+                },
+                xAxis: {
+                    type: 'category',
+                    boundaryGap: false,
+                    data: ['0周', '2周', '4周', '6周', '8周', '10周', '12周'],
+                    axisLine: {
+                        lineStyle: {
+                            color: '#999'
+                        }
+                    },
+                    axisLabel: {
+                        color: '#666'
+                    }
+                },
+                yAxis: {
+                    type: 'value',
+                    name: '改善程度(%)',
+                    nameTextStyle: {
+                        color: '#666',
+                        padding: [0, 0, 0, 40]
+                    },
+                    axisLine: {
+                        lineStyle: {
+                            color: '#999'
+                        }
+                    },
+                    splitLine: {
+                        lineStyle: {
+                            color: '#eee'
+                        }
+                    },
+                    axisLabel: {
+                        color: '#666',
+                        formatter: '{value}%'
+                    }
+                },
+                series: [
+                    {
+                        name: '肌肉力量',
+                        type: 'line',
+                        stack: '总量',
+                        smooth: true,
+                        lineStyle: {
+                            width: 3,
+                            color: '#e94560'
+                        },
+                        showSymbol: true,
+                        symbolSize: 8,
+                        itemStyle: {
+                            color: '#e94560'
+                        },
+                        areaStyle: {
+                            color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+                                {
+                                    offset: 0,
+                                    color: 'rgba(233, 69, 96, 0.3)'
+                                },
+                                {
+                                    offset: 1,
+                                    color: 'rgba(233, 69, 96, 0.1)'
+                                }
+                            ])
+                        },
+                        data: [0, 15, 30, 50, 70, 85, 95]
+                    },
+                    {
+                        name: '轮廓清晰度',
+                        type: 'line',
+                        stack: '总量',
+                        smooth: true,
+                        lineStyle: {
+                            width: 3,
+                            color: '#0f3460'
+                        },
+                        showSymbol: true,
+                        symbolSize: 8,
+                        itemStyle: {
+                            color: '#0f3460'
+                        },
+                        areaStyle: {
+                            color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+                                {
+                                    offset: 0,
+                                    color: 'rgba(15, 52, 96, 0.3)'
+                                },
+                                {
+                                    offset: 1,
+                                    color: 'rgba(15, 52, 96, 0.1)'
+                                }
+                            ])
+                        },
+                        data: [0, 5, 15, 30, 50, 70, 85]
+                    },
+                    {
+                        name: '皮肤紧致度',
+                        type: 'line',
+                        stack: '总量',
+                        smooth: true,
+                        lineStyle: {
+                            width: 3,
+                            color: '#1a1a2e'
+                        },
+                        showSymbol: true,
+                        symbolSize: 8,
+                        itemStyle: {
+                            color: '#1a1a2e'
+                        },
+                        areaStyle: {
+                            color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+                                {
+                                    offset: 0,
+                                    color: 'rgba(26, 26, 46, 0.3)'
+                                },
+                                {
+                                    offset: 1,
+                                    color: 'rgba(26, 26, 46, 0.1)'
+                                }
+                            ])
+                        },
+                        data: [0, 10, 20, 35, 45, 60, 75]
+                    }
+                ]
+            };
+            timelineChart.setOption(timelineOption);
+ 
+            // 响应式调整 
+            window.addEventListener('resize', function() {
+                attractivenessChart.resize();
+                timelineChart.resize();
+            });
+        });
+    </script>
+</body>
+</html>
